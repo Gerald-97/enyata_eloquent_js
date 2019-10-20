@@ -26,8 +26,4 @@ function flattener(arr1, arr2){
 var arrOfArray1 = arrOfArray.reduce(flattener);
 console.log(arrOfArray1);
 console.log('-----------------------------------')
-/**
- * 
- * Question 3
- * 
- */
+
