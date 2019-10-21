@@ -7,3 +7,11 @@ button.addEventListener('mousedown', function(){
     console.log("Handler for button");
     if (event == 3) event.stopPropagation();
 });
+
+function swap(btn){
+    if (!btn.disabled){
+        btn.disabled = true;
+    }
+}
+var btnLive = document.querySelector('#live');
+btnLive.addEventListener('click', swap);
